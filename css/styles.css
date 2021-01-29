@@ -1,0 +1,360 @@
+body {
+  font-family: 'Martel Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: 'Martel Sans', sans-serif;
+  text-align: center;
+  font-size: 2.8rem;
+  letter-spacing: none;
+}
+
+h2 {
+  font-family: 'Courgette', cursive;
+  font-size: 1.6rem;
+  color: #2F3E48;
+  padding-top: 30px;
+  text-shadow: 2px 2px 8px #555555;
+  color: #77c14b;
+}
+
+h3, h4, h5, h6 {
+  text-align: center;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 8px #000000;
+}
+
+p {
+  color: black;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  margin: 0 0 12.5px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+img {
+  width: 200px;
+}
+
+#main {
+  height: 100vh;
+  background-color: #555555;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Carter One', cursive;
+  text-shadow: 2px 2px 8px #555555;
+  line-height: 1.2;
+  font-size: 5rem;
+}
+
+.section-heading {
+  font-family: 'Carter One', cursive;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  color: #555555;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 3% 12%;
+}
+
+/* Sections */
+.top-section {
+  color: #ffffff;
+}
+
+.middle-section .bottom-section {
+  background-color: #ffffff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: 'Carter One', cursive;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 6px black;
+  margin: 0;
+  color: #77c14b;
+}
+
+.nav-items {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Martel Sans", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 900;
+  letter-spacing: .02em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: inherit;
+}
+
+/* Search Button Section */
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .open .dropdown-toggle.btn-outline-primary {
+  background-color: #77c14b;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-outline-primary {
+  color: #77c14b;
+  background-color: transparent;
+  background-image: none;
+  border-color: #77c14b;
+  font-weight: 900;
+}
+
+/* Brand Logo Section */
+.img-logo {
+  width: 80px;
+  margin: 0;
+}
+
+/* Heading Style */
+.heading-style {
+  text-align: center;
+  text-shadow: none;
+}
+
+/* Horizontal Rule */
+.section-features-spacer {
+  float: center;
+  width: 150px;
+  border-top: 5px solid #555555;
+  border-style: solid;
+  margin-bottom: 2rem;
+}
+
+/* Title Section */
+
+#title {
+  text-align: center;
+}
+
+#title .container-fluid {
+  padding: 2% 10% 12%;
+}
+
+.mx-auto {
+  padding-top: 50px;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.features-pararight {
+  margin-right: 300px;
+}
+
+.features-paraleft {
+  margin-left: 200px;
+}
+
+#features .container-fluid {
+  padding: 3% 8% 5%;
+}
+
+/* Features Section */
+.generate-image-right {
+  padding: 15px 20px;
+  float: right;
+}
+
+.generate-image-left {
+  padding: 15px 20px;
+  float: left;
+}
+
+.features-row {
+  padding: 25px 70px 160px
+}
+
+/* Why Plan Section */
+#whyplan {
+  background-color: #d9e4dd;
+}
+
+#whyplan .container-fluid {
+  padding: 1% 3% 3%;
+}
+
+.whyplan-parastyle {
+  text-align: center;
+  padding: 20px 200px;
+}
+
+/* Why Plan Carousel Section */
+.icon-style {
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+.whyplan-icons {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#carouselExampleIndicators:hover {
+  color: white;
+}
+
+/* About Us Section */
+.aboutus-container {
+  padding: 10px 30px;
+}
+
+.aboutus-parastyle {
+  text-align: justify;
+  padding: 20px 100px;
+}
+
+/* Comments & Suggestions Section */
+#message {
+  background-color: #d9e4dd;
+}
+
+#message .container-fluid {
+  padding: 5% 20%;
+}
+
+/* Footer Links Sections */
+#footer .container-fluid {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer-container {
+  font-size: 14px;
+  background-color: #555555;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.footer-icons {
+  width: 60px;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.footer-icons:hover {
+  color: #77c14b;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.footer-heading {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+/* Media Code */
+@media (max-width:1028px) {
+
+  #title .container-fluid {
+    padding: 2% 10% 20%;
+  }
+
+  #features {
+    text-align: center;
+  }
+
+  .big-heading {
+    font-family: 'Carter One', cursive;
+    text-shadow: 2px 2px 8px #000000;
+    letter-spacing: 4px;
+    line-height: 1.2;
+    font-size: 4rem;
+  }
+
+  .generate-image-right {
+    margin-bottom: 10px;
+    position: static;
+    float: none;
+  }
+
+  .generate-image-left {
+    margin-bottom: 10px;
+    position: static;
+    float: none;
+  }
+
+  .features-pararight {
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  .features-paraleft {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .features-row {
+    padding: 30px 0px;
+  }
+
+  .howitworks-title {
+    text-align: center;
+  }
+
+  .bottom-parastyle {
+    text-align: justify;
+    padding: 20px 20px;
+  }
+
+  #features .container-fluid {
+    padding: 4% 8% 10%;
+  }
+
+  #whyplan .container-fluid {
+    padding: 5% 8% 65%;
+  }
+
+  .whyplan-parastyle {
+    text-align: justify;
+    padding: 20px 20px;
+  }
+
+  #aboutus .container-fluid {
+    padding: 3% 5%;
+   }
+
+  .aboutus-parastyle {
+    padding: 10px;
+  }
+
+  #message .container-fluid {
+    padding: 5% 10%;
+}
+}
