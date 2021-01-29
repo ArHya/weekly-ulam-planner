@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Weekly Ulam Planner</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Courgette&family=Martel+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="/Users/hyagviaje/Documents/Code/Weekly Ulam Planner/css/styles.css">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/d7c0ae40f0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="parent-body" id="main">
+
+    <div class="children-body" id="sub-main">
+
+      <section class="top-section" id="title">
+
+        <div class="container-fluid" style="background:transparent url('images/filipino-street-food.jpg') no-repeat center center /cover">
+
+          <!-- Nav Bar -->
+
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="">
+              <img class="img-logo" src="images/WeeklyUlamPlannerLogo.png" id="logo" alt="Weekly Ulam Planner Logo" style="width:75px">Weekly Ulam Planner</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#generateulam">Generate Ulam</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#whyplan">Why Plan?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#aboutus">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#message">Contact Us</a>
+                </li>
+
+              </ul>
+
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="🔍" aria-label="Search" style="width:150px" minlength="3" required>
+                <button class="btn btn-outline-primary my-2 my-sm-0 btn-xs" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+
+          <div class="d-flex justify-content-center row">
+            <div class="col-lg-12 mx-auto">
+              <h2 style="color:#ffffff; font-size: 2rem">What's your</h2>
+              <h1 class="big-heading">ULAM <br />FOR <br />TODAY?</h1>
+              <h3>YOUR FILIPINO ULAM BUDDY PLANNER. <br />Don't worry, it is FREE.</h3>
+              <div class="col-lg-12 row justify-content-center" style="padding-top: 40px; padding-bottom: 40px;">
+                <button type="button" class="btn btn-outline-primary btn-lg">GENERATE NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="middle-section " id="features">
+
+        <!-- Features Section -->
+
+        <div class="container-fluid">
+
+          <div class="features">
+            <h1 class="section-heading">How it works?</h1>
+            <div class="features-row col-lg-12">
+              <img class="generate-image-right" src="images/generateulam.png" alt="Ulam Meal Plan Phone Screen Image" style="width:200px; border-style:solid; padding: 0px">
+              <h2 class="heading-style">Generate Weekly Ulam</h2>
+              <p class="features-pararight">With just one click of the Generate Now button, Filipino Ulam (meals) from our database will appear. They were gathered and carefully selected ideally for your Breakfast, Lunch
+                & Dinner. Each time you generate, you can either remove meal/s from the list shown or directly add the suggested Ulam (meals) to your account.</p>
+            </div>
+            <div class="features-row col-lg-12">
+              <hr class="section-features-spacer">
+              <img class="generate-image-left" src="images/meal_plan_sample.png" alt="">
+              <h2 class="heading-style">Automatic Meal Plan</h2>
+              <p class="features-paraleft">The Ulam(meals) you've added to your account can be created as your meal plan for the week. No more worries with your meal plan we got ya! </p>
+            </div>
+            <div class="features-row col-lg-12">
+              <hr class="section-features-spacer">
+              <img class="generate-image-right" src="images/add-to-calendar.gif" alt="" style="width:250px; border-style:solid; padding: 0px">
+              <h2 class="heading-style">Add Meal Plan to Calendar</h2>
+              <p class="features-pararight">Once you're done with your meal plan for the week, you can then add it to your phone Calendar for easy access and reminder.
+            </div>
+            <div class="features-row col-lg-12">
+              <hr class="section-features-spacer">
+              <img class="generate-image-left" src="images/mealplan.jpg" alt="" style=" width:300px">
+              <h2 class="heading-style">Collect Recipes from Websites</h2>
+              <p class="features-paraleft">You can also search for recipes anywhere and just simply copy the link and paste it to your Ulam (meal).
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Why Plan Carousel Section -->
+
+      <section class="bottom-section" id="whyplan">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="8000" keyboard="true" pause="true">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner container-fluid whyplan">
+            <div class="carousel-item active" role="listbox" style=" width:100%; height: 500px !important;">
+              <h1 class="section-heading">Why Plan?</h1>
+              <i class="fas fa-utensils fa-5x whyplan-icons"></i> &nbsp; <i class="fas fa-clipboard-list fa-5x"></i>
+              <p class="whyplan-parastyle" style="text-align: justify">One of the key benefits of Ulam (Meal) Planning is that it helps reduce the frustration when planning about what meal should you cook for next week. Sometimes we can't figure out
+                the type of meal we'd love to prepare because of certain factors like the health conditions of one of the family members or having a picky-eater child. Therefore, we aim to provide parents, especially Moms, Inays & Mamas, who are
+                always being asked one question: Ma, Anong Ulam? So we, at Weekly Ulam Planner, prepared hundreds of Filipino meals in our database that will give you the best combination of healthy meals for your breakfast, lunch, and dinner.
+                <br />
+            </div>
+            <div class="carousel-item" role="listbox" style=" width:100%; height: 500px !important;">
+              <i class="d-block w-100 fas fa-calendar-minus fa-5x icon-style" alt="Second slide reduce time icon"></i>
+              <h2 class="heading-style">Lessen Time Planning</h2>
+              <p class="whyplan-parastyle">
+                With just one click, you'll have Ulam (meal plan) ready for breakfast, lunch and dinner! You just need to search for recipes anywhere online and copy the link then add it to the Ulam (meal) generated for your reference.
+              </p>
+            </div>
+            <div class="carousel-item" role="listbox" style=" width:100%; height: 500px !important;">
+              <i class="d-block w-100 fas fa-hand-holding-usd fa-5x icon-style" alt="Third slide save money icon"></i>
+              <h2 class="heading-style">Budget Ulam</h2>
+              <p class="whyplan-parastyle">
+                Once you know the meals (Generated Ulam), you can carefully select the ingredients and calculate the cost of every meal. You can also avoid dining out and buying takeaways.
+              </p>
+
+            </div>
+            <div class="carousel-item" role="listbox" style=" width:100%; height: 500px !important;">
+              <i class="d-block w-100 fas fa-tired fa-5x icon-style" alt="Fourth slide tired icon"></i>
+              <h2 class="heading-style">Lessen Stress & Anxiety</h2>
+              <p class="whyplan-parastyle">
+                If you are always being asked by your husband/wife & kids on what's going to be your Ulam (meal)?... you can easily answer them by just clicking the Generate Now button or by simply looking into your Weekly Ulam Planner calendar.
+                No more fuss and worries.
+              </p>
+            </div>
+
+            <div class="carousel-item" role="listbox" style=" width:100%; height: 500px !important;">
+              <i class="d-block w-100 fas fa-trash-restore fa-5x icon-style" alt="Fifth slide trash restore icon"></i>
+              <h2 class="heading-style">Lessen Food Waste</h2>
+              <p class="whyplan-parastyle">
+                Meal planning has been proven to help reduce food wastes. By organizing your food groceries and knowing the exact amount of ingredients that you need for the week, you'll be able to cook the ingredients that you only need and save the
+                remaining for your next
+                meal prep.
+              </p>
+            </div>
+          </div>
+
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- About Us Section -->
+
+      <section class="aboutus-container" id="aboutus">
+
+        <div class="container-fluid">
+          <h1 class="section-heading">About Us</h1>
+          <div class="aboutus">
+            <p class="aboutus-parastyle">
+              We are a Filipino family based in The Netherlands. Together with my husband, we developed this website available for every Filipino who loves to cook & eat Filipino Ulam (Meals). I've tried a lot of meal planning methods available
+              online, however, I couldn't find any website that generates and suggests Filipino Ulam Meals automatically for breakfast, lunch & dinner and can attach Ulam recipes at the same time. Since we both love coding, we came up with this idea
+              and built this website for every Filipino user. We aim to lessen the frustration & stress when creating their Weekly Ulam Planning. We also want to promote our traditional healthy Filipino Ulam meals in every family wherever they are in
+              the world. </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact message Section -->
+
+      <section class="message-container" id="message">
+
+        <div class="container-fluid">
+          <h1 class="section-heading" style="font-size: 2.5rem">Comments & Suggestions?</h1>
+          <p class="aboutus-parastyle">
+            We, at Weekly Ulam Planner, aims to provide the best Ulam Planning Website for each and every Filipino. We want to know your thoughts about this concept so we can further improve the website. Your comments & suggestions are very much
+            welcome. Feel free to write us your message or questions by filling out the form below. We'll do our best to get back to you within the day.
+          <form id="contact-form" method="post" action="contact.php" role="form">
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form_email">Email *</label>
+                  <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form_need">Please select Subject *</label>
+                  <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                    <option value="">Please select below: </option>
+                    <option value="Your Comments">Comments </option>
+                    <option value="Your Questions">Questions </option>
+                    <option value="Your Suggestions">Suggestions (new features)</option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="form_message">Your Message here *</label>
+                  <textarea id="form_message" name="message" class="form-control" placeholder="Your Message Here *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <input type="submit" class="btn btn-outline-primary btn-send" value="Send message">
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+        <!-- Footer Links Section -->
+
+        <footer class="footer-container" id="footer">
+          <div class="container-fluid">
+            <h1 class="footer-heading">Connect with us!</h1>
+            <a href="https://www.twitter.com/theviajeros28"><i class="fab fa-twitter fa-2x footer-icons"></i></a>
+            <a href="https://www.facebook.com/the.viajeros28"><i class="fab fa-facebook-f fa-2x footer-icons"></i></a>
+            <a href="https://www.instagram.com/the.viajeros"><i class="fab fa-instagram fa-2x footer-icons"></i></a>
+            <a href="mailto:theviajerosfamily@gmail.com"><i class="fas fa-envelope fa-2x footer-icons"></i></a>
+            <p class="footer-container">© 2021 Weekly Ulam Planner by The Viajeros Family</h3>
+          </div>
+        </footer>
+
+    </div>
+  </div>
+</body>
+
+</html>
