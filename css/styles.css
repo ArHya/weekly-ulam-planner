@@ -243,8 +243,7 @@ img {
 
 /* Footer Links Sections */
 #footer .container-fluid {
-  padding-top: 30px;
-  padding-bottom: 20px;
+
 }
 
 .footer-container {
@@ -254,29 +253,36 @@ img {
   margin-top: 0;
   margin-bottom: 0;
   color: white;
-  text-align: center;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  justify-content: center;
 }
 
 .footer-icons {
   width: 60px;
   text-align: center;
   color: white;
-  padding-top: 15px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .footer-icons:hover {
   color: #77c14b;
-  padding-top: 15px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .footer-heading {
   color: white;
   font-size: 2.5rem;
-  margin-bottom: 0;
+
+}
+
+.links-style {
+  padding-top:20px;
+}
+
+.copyright {
+  padding-left: 400px;
+  color:white;
 }
 
 /* Media Code */
@@ -338,7 +344,7 @@ img {
   }
 
   #whyplan .container-fluid {
-    padding: 5% 8% 65%;
+    padding: 5% 8% 50%;
   }
 
   .whyplan-parastyle {
@@ -356,5 +362,11 @@ img {
 
   #message .container-fluid {
     padding: 5% 10%;
+}
+
+.copyright {
+  padding-left: 0px;
+  color:white;
+  text-align: center;
 }
 }

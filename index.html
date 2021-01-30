@@ -22,6 +22,10 @@
   <!-- Font Awesome CDN -->
   <script src="https://kit.fontawesome.com/d7c0ae40f0.js" crossorigin="anonymous"></script>
 
+  <!-- Email SMTP CONTACT US Scripts -->
+  <script src="/Users/hyagviaje/Documents/Code/Weekly Ulam Planner/js/contactus.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
 </head>
 
 <body>
@@ -246,20 +250,27 @@
             </div>
           </form>
         </div>
+      </section>
 
+      <!-- Footer Links & Newsletter Section -->
 
-        <!-- Footer Links Section -->
-
-        <footer class="footer-container" id="footer">
-          <div class="container-fluid">
+      <footer class="footer-container" id="footer">
+        <div class="row container-fluid" style="margin-right: 0px; margin-left: 0px;">
+          <div class="col-lg-6 links-style">
             <h1 class="footer-heading">Connect with us!</h1>
             <a href="https://www.twitter.com/theviajeros28"><i class="fab fa-twitter fa-2x footer-icons"></i></a>
             <a href="https://www.facebook.com/the.viajeros28"><i class="fab fa-facebook-f fa-2x footer-icons"></i></a>
             <a href="https://www.instagram.com/the.viajeros"><i class="fab fa-instagram fa-2x footer-icons"></i></a>
             <a href="mailto:theviajerosfamily@gmail.com"><i class="fas fa-envelope fa-2x footer-icons"></i></a>
-            <p class="footer-container">© 2021 Weekly Ulam Planner by The Viajeros Family</h3>
           </div>
-        </footer>
+          <div class="col-lg-6 newsletter-style">
+            <embed type="text/html" src="https://api.elasticemail.com/form?lid=IwMSIzYVlknqfrzBdW9LZw2" width="100%" height="500"></embed>
+          </div>
+          <div class="">
+          <p class="copyright">© 2021 Weekly Ulam Planner by The Viajeros Family</h3>
+        </div>
+      </div>
+      </footer>
 
     </div>
   </div>
