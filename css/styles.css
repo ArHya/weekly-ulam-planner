@@ -139,13 +139,13 @@ img {
 }
 
 /* Horizontal Rule */
-.section-features-spacer {
+/* .section-features-spacer {
   float: center;
   width: 150px;
   border-top: 5px solid #555555;
-  border-style: solid;
+  border-style: dotted;
   margin-bottom: 2rem;
-}
+} */
 
 /* Title Section */
 
@@ -175,22 +175,24 @@ img {
 }
 
 #features .container-fluid {
-  padding: 3% 8% 5%;
+  padding: 3% 8%;
 }
 
 /* Features Section */
 .generate-image-right {
   padding: 15px 20px;
   float: right;
+  width: 200px;
 }
 
 .generate-image-left {
   padding: 15px 20px;
   float: left;
+  width: 180px;
 }
 
 .features-row {
-  padding: 25px 70px 160px
+  padding: 25px 70px 180px
 }
 
 /* Why Plan Section */
